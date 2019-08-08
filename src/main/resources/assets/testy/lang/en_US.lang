@@ -1,0 +1,7 @@
+death.attack.infection=You died of infection!
+
+
+tile.infectedgrassblock.name=Infected grass
+tile.infecteddirt.name=Infected dirt
+tile.infectedstone.name=Infected stone
+tile.infectedcobblestone.name=Infected rock

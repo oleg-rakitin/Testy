@@ -1,0 +1,11 @@
+
+{
+    "parent": "block/grass",
+    "textures": {
+        "particle": "testy:blocks/infected_dirt",
+        "bottom": "testy:blocks/infected_dirt",
+        "top": "testy:blocks/infectedgrass_top",
+        "side": "testy:blocks/infectedgrass_side",
+		"overlay": "testy:blocks/infectedgrass_side"
+    }
+}

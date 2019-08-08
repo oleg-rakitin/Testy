@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "testy:blocks/infected_dirt"
+    }
+}
