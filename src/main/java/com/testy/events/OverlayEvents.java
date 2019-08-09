@@ -31,7 +31,7 @@ public class OverlayEvents
 				
 				GL11.glPopMatrix();
 				tick = 0;
-			}
+			}chechevica
 			gui.draw();
 			tick++;
 		}	
