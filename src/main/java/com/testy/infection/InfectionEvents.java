@@ -89,7 +89,7 @@ public class InfectionEvents
 				
 			}
 		} else {
-			tick--;
+			tick++;
 		}
 	}
 	@SubscribeEvent
