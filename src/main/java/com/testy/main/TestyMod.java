@@ -44,7 +44,7 @@ public class TestyMod
         proxy.init(event);
     	MinecraftForge.EVENT_BUS.register(new CapabilityAddIvents());
     	MinecraftForge.EVENT_BUS.register(new InfectionEvents());
-
+fqwfqw
 
     }
     @EventHandler
