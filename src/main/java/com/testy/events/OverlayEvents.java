@@ -25,9 +25,9 @@ public class OverlayEvents
 		{
 			if(tick >= 20)
 			{
-				GL11.glPushMatrix();
+				GL11.glPushMatrix();fwqfq
 				
-				gui.Update();
+				gui.Update();fqwfq
 				
 				GL11.glPopMatrix();
 				tick = 0;
