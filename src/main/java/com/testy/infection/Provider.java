@@ -8,7 +8,7 @@ import net.minecraftforge.common.capabilities.ICapabilitySerializable;
 
 public class Provider implements ICapabilitySerializable<NBTTagCompound>
 {
-	//sdasdasdaszxzss23z
+	//sdasdasdaszxzss23zs
 	   @CapabilityInject(IInfectionHandler.class)
 	    public static final Capability<IInfectionHandler> CAPABILITY_INFECTION = null;
 	   
