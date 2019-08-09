@@ -5,7 +5,7 @@ import com.testy.events.OverlayEvents;
 import com.testy.infection.InfectionEvents;
 import com.testy.messages.InfectionUpdateHandler;
 import com.testy.messages.InfectionUpdateMessage;
-import com.testy.proxy.CommonProxy;fw
+import com.testy.proxy.CommonProxy;
 
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
@@ -33,7 +33,7 @@ public class TestyMod
     public static CommonProxy proxy;
     
     @EventHandler
-    public void preinit(FMLPreInitializationfqwfqwfwqEvent event)
+    public void preinit(FMLPreInitializationEvent event)
     {
         proxy.preinit(event);
         INSTANCE.registerMessage(InfectionUpdateHandler.class, InfectionUpdateMessage.class, id++, Side.CLIENT);
