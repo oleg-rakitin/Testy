@@ -1,7 +1,5 @@
 package com.testy.events;
 
-
-
 import org.lwjgl.opengl.GL11;
 
 import com.testy.gui.InfectionGui;

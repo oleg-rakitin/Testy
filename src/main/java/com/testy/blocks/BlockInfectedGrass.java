@@ -3,6 +3,8 @@ package com.testy.blocks;
 
 import java.util.Random;
 
+import com.testy.main.myDamageSource;
+
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
@@ -83,7 +85,7 @@ public class BlockInfectedGrass extends BaseBlock
 	{
 		if(entityIn instanceof EntityLiving)
 		{
-		
+			entityIn.attackEntityFrom(myDamageSource.infection, 0.005f);
 		}
 	}
 

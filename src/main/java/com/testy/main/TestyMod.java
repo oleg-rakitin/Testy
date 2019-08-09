@@ -45,7 +45,6 @@ public class TestyMod
     	MinecraftForge.EVENT_BUS.register(new CapabilityAddIvents());
     	MinecraftForge.EVENT_BUS.register(new InfectionEvents());
 
-
     }
     @EventHandler
     public void postinit(FMLPostInitializationEvent event)
