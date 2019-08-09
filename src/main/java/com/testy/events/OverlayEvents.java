@@ -20,7 +20,7 @@ public class OverlayEvents
 	
 	@SubscribeEvent
 	public void renderInfection(RenderGameOverlayEvent.Post e)
-	{
+	{3
 		if(e.getType() == ElementType.TEXT)
 		{
 			if(tick >= 20)
@@ -31,7 +31,7 @@ public class OverlayEvents
 				
 				GL11.glPopMatrix();
 				tick = 0;
-			}chechevica
+			}
 			gui.draw();
 			tick++;
 		}	
