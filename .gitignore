@@ -35,3 +35,8 @@ report.html
 
 # protect the gradle wrapper
 !gradle/wrapper/gradle-wrapper.jar
+/build.gradle
+/gradle.properties
+/gradlew
+/gradlew.bat
+/start.bat
