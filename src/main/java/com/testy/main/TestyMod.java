@@ -5,7 +5,7 @@ import com.testy.events.OverlayEvents;
 import com.testy.infection.InfectionEvents;
 import com.testy.messages.InfectionUpdateHandler;
 import com.testy.messages.InfectionUpdateMessage;
-import com.testy.proxy.CommonProxy;
+import com.testy.proxy.CommonProxy;fw
 
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
