@@ -22,6 +22,7 @@ public class BlockRegistry
 	public static final Block INFECTEDDIRT = new BaseBlock("infecteddirt", Material.GRASS).setHardness(1);
 	public static final Block INFECTEDSTONE = new BlockInfectedStone("infectedstone", Material.ROCK);
 	public static final Block INFECTEDCOBBLESTONE = new BaseBlock("infectedcobblestone", Material.ROCK);
+	public static final Block INFECTEDFLOWER = new InfectedFlower("infectedflower");
 	
 	
 	public static void registry()

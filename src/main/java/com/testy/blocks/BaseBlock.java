@@ -13,6 +13,7 @@ public class BaseBlock extends Block {
 		this.setUnlocalizedName(name);
 		this.setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 		BlockRegistry.BLOCKS.add(this);
+		
 	}
 
 }
