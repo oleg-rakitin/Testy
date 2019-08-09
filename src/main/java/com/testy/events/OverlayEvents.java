@@ -20,7 +20,7 @@ public class OverlayEvents
 	
 	@SubscribeEvent
 	public void renderInfection(RenderGameOverlayEvent.Post e)
-	{3
+	{
 		if(e.getType() == ElementType.TEXT)
 		{
 			if(tick >= 20)
