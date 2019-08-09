@@ -24,8 +24,9 @@ public class OverlayEvents
 		if(e.getType() == ElementType.TEXT)
 		{
 			if(tick >= 20)
-			{
-				GL11.glPushMatrix();23
+      {
+				GL11.glPushMatrix();
+
 				
 				gui.Update();
 				
