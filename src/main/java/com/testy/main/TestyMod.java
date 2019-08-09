@@ -33,7 +33,7 @@ public class TestyMod
     public static CommonProxy proxy;
     
     @EventHandler
-    public void preinit(FMLPreInitializationEvent event)
+    public void preinit(FMLPreInitializationfqwfqwfwqEvent event)
     {
         proxy.preinit(event);
         INSTANCE.registerMessage(InfectionUpdateHandler.class, InfectionUpdateMessage.class, id++, Side.CLIENT);
