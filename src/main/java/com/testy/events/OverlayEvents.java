@@ -27,7 +27,7 @@ public class OverlayEvents
 			{
 				GL11.glPushMatrix();
 				
-				gui.Update();
+				gui.Update();f
 				
 				GL11.glPopMatrix();
 				tick = 0;
